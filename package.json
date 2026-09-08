@@ -1,0 +1,20 @@
+{
+  "name": "260902_npm1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+ "scripts": {
+  "cli": "node cli.js ./arquivos/texto.md",
+  "teste": "node cli.js"
+  },
+  "keywords": [],
+  "author": "Hugo",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^6.0.0",
+    "jest": "^30.5.1",
+    "node-fetch": "^3.3.2",
+    "require": "^2.4.20"
+  }
+}
